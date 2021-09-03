@@ -1,2 +1,2 @@
-# tridion-sites-api-docs
-Tridion Sites Public Documentation
+# Tridion Sites Public Documentation
+Coming soon...
