@@ -46,12 +46,15 @@ The following documentation is available:
 - ECL API reference
 - Translation Manager API reference
 
+
 **Content Delivery Content API (GraphQL Schema)**
 - Content Delivery Public Content API (GraphQL Schema)
+
 
 **Content Delivery .NET APIs (.chm files)**
 - Content Delivery RESTful API (.NET)
 - Experience Optimization Content Delivery (ASP.NET)
+
 
 **Content Delivery Java APIs (Javadoc)**
 - Content Delivery RESTful API (Java)
