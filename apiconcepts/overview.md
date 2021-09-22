@@ -39,28 +39,28 @@ Links to download the API reference documentation for Tridion Sites. The ASP.NET
 
 The following documentation is available:
 
-**Content Manager APIs (.chm files)**
+### Content Manager APIs (.chm files) ###
 - TOM.NET API reference
 - GUI API reference
 - Core Service API reference
 - ECL API reference
 - Translation Manager API reference
 
-
-**Content Delivery Content API (GraphQL Schema)**
+### Content Delivery Content API (GraphQL Schema) ###
 - Content Delivery Public Content API (GraphQL Schema)
 
 
-**Content Delivery .NET APIs (.chm files)**
+### Content Delivery .NET APIs (.chm files) ###
 - Content Delivery RESTful API (.NET)
 - Experience Optimization Content Delivery (ASP.NET)
 
 
-**Content Delivery Java APIs (Javadoc)**
+### Content Delivery Java APIs (Javadoc) ###
 - Content Delivery RESTful API (Java)
 - Experience Optimization Content Delivery (JSP)
 
-**Tridion Integration Framework APIs**
+
+### Tridion Integration Framework APIs ###
 - Tridion Integration Framework API
 - Connector Framework API
 - Connector Framework SDK
