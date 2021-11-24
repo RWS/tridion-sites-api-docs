@@ -9,20 +9,22 @@ To be able to submit an app, you must be signed up as an RWS Developer.
 
 ### To sign up as an RWS Developer:
 1. Sign in to your RWS Account on the [RWS AppStore](https://appstore.sdl.com/).
-2. From the top menu, select the **Apps & Developers** tab.
-3. Select the **Apps** tab below it.
-4. Select the button you see to become approved as an RWS Developer.
+2. Go to your account settings by selecting your username and selecting **SDL Account** from the dropdown. A new browser tab opens, showing your account settings.
+3. From the top menu, select the **Apps & Developers** tab.
+4. Select the **Apps** tab below it.
+5. Read and agree to our terms, then select **Become an SDL Developer** to become approved as an RWS Developer.
 
 Approved RWS Developers can submit their app.
 
 ### To submit your app:
 1. Sign in to your RWS Account on the [RWS AppStore](https://appstore.sdl.com/).
-2. From the top menu, select the **Apps & Developers** tab.
-3. Select the **Apps** tab below it.
-4. Within this section, click the **Add a new App** button. 
-5. Give your app a name and version, as prompted.
-6. Fill in a short form describing your app.
-7. Submit your app for review.
+2. Go to your account settings by selecting your username and selecting **SDL Account** from the dropdown. A new browser tab opens, showing your account settings.
+3. From the top menu, select the **Apps & Developers** tab.
+4. Select the **Apps** tab below it.
+5. Within this section, select **Add a new App**. 
+6. Give your app a name and version, as prompted.
+7. Fill in a short form describing your app.
+8. Submit your app for review.
 
 [Submit your app](https://oos.sdl.com/asp/products/app/getapps)
 
@@ -37,7 +39,7 @@ You may wish to update your app after it has been published.
 2. From the top menu, select the **Apps & Developers** tab.
 3. Select the **Apps** tab below it.
 4. Select the app you would like to update.
-5. If you would like to have more than one version of your app live on the app store simultaneously, select **Add a new version**. This creates multiple instances of the same app. 
+5. If you would like to have more than one version of your app live on the app store simultaneously, select **Add a new version**. This creates another instances of the same app. 
 5. Edit the form with your changes.
 6. Select **Save** button to submit your updated app (or your separate, new version of your app) for review. 
 
