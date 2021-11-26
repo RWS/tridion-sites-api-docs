@@ -4,7 +4,7 @@ Tridion Sites is an enterprise-class web content management system that lets you
 ## [Content Delivery Public Content API](https://docs.rws.com/816112/805566/sdl-tridion-sites-9-5-main-documentation/content-delivery-------------public-content-api) ##
 Content Delivery exposes its content through the Public Content API, in the GraphQL query language. To interact with the API and the published content, use an in-browser GraphQL IDE such as GraphiQL.
 
-Select [this link](https://sdl.dist.sdlmedia.com/distributions/?o=C0699768-46D3-4815-8798-962E1B4F1DE1) to download the Public Content API reference documentation.
+Select [this link](https://docs.rws.com/binary/816112/816236/sdl-tridion-sites-9-5-main-documentation/sdl-tridion-sites-content-delivery-public-content-api-graphql-) to download the Public Content API reference documentation.
 
 ## [Extension points in the .NET Content Interaction Libraries](https://docs.rws.com/816112/631159/sdl-tridion-sites-9-5-main-documentation/extension-points-in-the--net-content-interaction-libraries) ##
 Various interfaces in the .NET CIL enable you to override various default implementations. You can use Microsoft Unity to inject any new dependencies you create.
@@ -40,30 +40,30 @@ Links to download the API reference documentation for Tridion Sites. The ASP.NET
 The following documentation is available:
 
 ### Content Manager APIs (.chm files) ###
-- TOM.NET API reference
-- GUI API reference
-- Core Service API reference
-- ECL API reference
-- Translation Manager API reference
+- [TOM.NET API reference](https://docs.rws.com/binary/816112/815799/sdl-tridion-sites-9-5-main-documentation/sdl-tridion-sites-tom-net-api)
+- [GUI API reference](https://docs.rws.com/binary/816112/815891/sdl-tridion-sites-9-5-main-documentation/sdl-tridion-sites-gui-api-docs)
+- [Core Service API reference](https://docs.rws.com/binary/816112/815802/sdl-tridion-sites-9-5-main-documentation/sdl-tridion-sites-core-service-api)
+- [ECL API reference](https://docs.rws.com/binary/816112/816277/sdl-tridion-sites-9-5-main-documentation/sdl-tridion-sites-external-content-library-api)
+- [Translation Manager API reference](https://docs.rws.com/binary/816112/816280/sdl-tridion-sites-9-5-main-documentation/sdl-tridion-sites-translation-manager-api)
 
 ### Content Delivery Content API (GraphQL Schema) ###
-- Content Delivery Public Content API (GraphQL Schema)
+- [Content Delivery Public Content API (GraphQL Schema)](https://docs.rws.com/binary/816112/816236/sdl-tridion-sites-9-5-main-documentation/sdl-tridion-sites-content-delivery-public-content-api-graphql-)
 
 
 ### Content Delivery .NET APIs (.chm files) ###
-- Content Delivery RESTful API (.NET)
-- Experience Optimization Content Delivery (ASP.NET)
+- [Content Delivery RESTful API (.NET)](https://docs.rws.com/binary/816112/816239/sdl-tridion-sites-9-5-main-documentation/sdl-tridion-sites-content-delivery-restful-api-net-)
+- [Experience Optimization Content Delivery (ASP.NET)](https://docs.rws.com/binary/816112/816248/sdl-tridion-sites-9-5-main-documentation/sdl-tridion-sites-experience-optimization-api-net-)
 
 
 ### Content Delivery Java APIs (Javadoc) ###
-- Content Delivery RESTful API (Java)
-- Experience Optimization Content Delivery (JSP)
+- [Content Delivery RESTful API (Java)](https://docs.rws.com/binary/816112/816242/sdl-tridion-sites-9-5-main-documentation/sdl-tridion-sites-content-delivery-restful-api-java-)
+- [Experience Optimization Content Delivery (JSP)](https://docs.rws.com/binary/816112/816248/sdl-tridion-sites-9-5-main-documentation/sdl-tridion-sites-experience-optimization-api-net-)
 
 
 ### Tridion Integration Framework APIs ###
-- Tridion Integration Framework API
-- Connector Framework API
-- Connector Framework SDK
+- [Tridion Integration Framework API](https://docs.rws.com/binary/816112/816284/sdl-tridion-sites-9-5-main-documentation/tridion-integration-framework-api-net-)
+- [Connector Framework API](https://docs.rws.com/binary/816112/816264/sdl-tridion-sites-9-5-main-documentation/tridion-integration-framework-api-java-)
+- [Connector Framework SDK](https://docs.rws.com/binary/816112/816268/sdl-tridion-sites-9-5-main-documentation/tridion-integration-framework-sdk-java-)
 
 ## Tridion DXA ##
 This section is intended for developers wanting to extend DXA functionality using it's open-source .NET and Java APIs.
