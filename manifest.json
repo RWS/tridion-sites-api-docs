@@ -26,18 +26,6 @@
     },
     {
       "type": "Conceptual",
-      "source_relative_path": "addingapps.md",
-      "output": {
-        ".html": {
-          "relative_path": "addingapps.html",
-          "hash": "9zJETHBE7kuyDbQJ0xbVUKpxKFRPsUCPhuaQ/ubk/wg="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "Conceptual",
       "source_relative_path": "apiconcepts/overview.md",
       "output": {
         ".html": {
@@ -55,6 +43,18 @@
         ".html": {
           "relative_path": "apiconcepts/toc.html",
           "hash": "kGk58J0h7lYng41J2Z7XBPLw66TFVqsYZH7GG68AT/s="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "articles/addingapps.md",
+      "output": {
+        ".html": {
+          "relative_path": "articles/addingapps.html",
+          "hash": "f4GXc5G7ZsESpZoWzuespMRykB8XWQpdwjdy89jx/8c="
         }
       },
       "is_incremental": false,
@@ -85,15 +85,12 @@
       "version": ""
     },
     {
-      "log_codes": [
-        "InvalidFileLink"
-      ],
       "type": "Conceptual",
       "source_relative_path": "index.md",
       "output": {
         ".html": {
           "relative_path": "index.html",
-          "hash": "PWo0UAafRi8B4AFg8dy1dDDjkLnSYkkb5Ow7udptezY="
+          "hash": "akcOLdRc3XETJJAA7wgOdJciGBCAy/yIbiv1zWByG7g="
         }
       },
       "is_incremental": false,
