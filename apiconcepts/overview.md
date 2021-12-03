@@ -39,6 +39,10 @@ Links to download the API reference documentation for Tridion Sites. The ASP.NET
 
 The following documentation is available:
 
+### Content Manager REST API ###
+- [Core Service.Rest API Swagger UI](https://developers.rws.com/TridionSitesSwaggerUi/)
+- [Core Service.Rest API Swagger spec](https://developers.rws.com/TridionSitesSwaggerUi/openapi.json)
+
 ### Content Manager APIs (.chm files) ###
 - [TOM.NET API reference](https://docs.rws.com/binary/956379/952141/)
 - [GUI API reference](https://docs.rws.com/binary/956379/955707/)
