@@ -51,7 +51,7 @@ The following documentation is available:
 - [Translation Manager API reference](https://docs.rws.com/binary/956379/955807/)
 
 ### Content Delivery Content API (GraphQL Schema) ###
-- [Content Delivery Public Content API (GraphQL Schema)](https://docs.rws.com/binary/956379/955694/)
+- [Content Delivery Public Content API (GraphQL Schema)](https://developers.rws.com/tridion-dxd-api-docs/content-api-graphql/)
 
 
 ### Content Delivery .NET APIs (.chm files) ###
@@ -60,8 +60,8 @@ The following documentation is available:
 
 
 ### Content Delivery Java APIs (Javadoc) ###
-- [Content Delivery RESTful API (Java)](https://docs.rws.com/binary/956407/955700/)
-- [Experience Optimization Content Delivery (JSP)](https://docs.rws.com/binary/956379/955704/)
+- [Content Delivery RESTful API (Java)](https://developers.rws.com/tridion-dxd-api-docs/cil-api-java/)
+- [Experience Optimization Content Delivery (JSP)](https://developers.rws.com/tridion-dxd-api-docs/xo-api-java/)
 
 
 ### Tridion Integration Framework APIs ###
