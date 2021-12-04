@@ -6,12 +6,12 @@ This the main repository for the tridion-sites Public API documentation.
 
 ## Can I contribute?
 
-Anyone is welcome to contribute to the public tridion-sites API documentation by making a pull request into the master repository.
+Anyone is welcome to contribute to the public tridion-sites API documentation by making a pull request into the main branch.
 
 
 The documentation is split into the following sections:
 - Articles
-  - This section hosts a series of usefull article on:
+  - This section hosts a series of useful article on:
     - how to get started with writing plug-ins for tridion-sites
     - how to best use the public APIs
     - how to troubleshoot common issues
