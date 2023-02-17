@@ -31,8 +31,5 @@ In order for you to make a contribution directly please follow the next steps:
   - This pull request will be reviewed for correctness by one of our technical writers
 - Once your pull request has been approved and committed into the *main* branch, an automatic pipeline will be triggered which will push your changes to the [live documentation site](https://rws.github.io/studio-api-docs/index.html)
 - if you wish to test your changes locally you can follow the [DOCFX Installation guideline](https://dotnet.github.io/docfx/tutorial/docfx_getting_started.html) and [build the entire solution locally](https://dotnet.github.io/docfx/tutorial/walkthrough/walkthrough_create_a_docfx_project.html)
-- Our documentation automatically fills in the product name and other details so you don't have to make the changes manually if we decide to update the product name. Use the '<var:VariableName>' construct to tell our documentation engine to fill in the info for you. Here are the constructs available at this point:
 
-      <var:ProductName> - The product name, for example tridion-sites
-      <var:ProductNameWithEdition> - The official product release name including the edition, for example 'tridion-sites 2021'
       
