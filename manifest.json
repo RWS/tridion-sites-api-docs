@@ -18,7 +18,19 @@
       "output": {
         ".html": {
           "relative_path": "README.html",
-          "hash": "Ern9D61BDV3Ce1PoMgmBDsRAWfxASzfp3EBHZRjklYw="
+          "hash": "Kvd6eR3RqjJWPVGGWUozCEXVo2wMV9oB2JECnzk/h6Y="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "apiconcepts/Tridion_Sites_9.6/overview.md",
+      "output": {
+        ".html": {
+          "relative_path": "apiconcepts/Tridion_Sites_9.6/overview.html",
+          "hash": "Cc/nrp4KJ7FM84YTB7/mEahEUDi10Ox1ZjVcRnF3K0s="
         }
       },
       "is_incremental": false,
@@ -30,7 +42,7 @@
       "output": {
         ".html": {
           "relative_path": "apiconcepts/overview.html",
-          "hash": "SgB+niJCYnb1NwV/FSxdsd3SnP4UX2x2uPTfm+aW+lI="
+          "hash": "n4WZ3Ck+8ZqZaR/hyrxcbZUt78bmfvR8e+IMwdpIpT8="
         }
       },
       "is_incremental": false,
@@ -50,59 +62,11 @@
     },
     {
       "type": "Conceptual",
-      "source_relative_path": "articles/addingapps.md",
-      "output": {
-        ".html": {
-          "relative_path": "articles/addingapps.html",
-          "hash": "ZOivNUvYfWVvJyw52+ZPtn/GP8d5ibMPPWcWBhmSU9I="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "Conceptual",
-      "source_relative_path": "articles/intro.md",
-      "output": {
-        ".html": {
-          "relative_path": "articles/intro.html",
-          "hash": "UEBR/lhefP2emMisgvM/vKTfSBF6Nwuh+RM97+gYcso="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "Toc",
-      "source_relative_path": "articles/toc.yml",
-      "output": {
-        ".html": {
-          "relative_path": "articles/toc.html",
-          "hash": "HocIIAtWaqxD7AXfetLGVcrBoI6sNur5KapGWRvN1y0="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "Conceptual",
       "source_relative_path": "index.md",
       "output": {
         ".html": {
           "relative_path": "index.html",
-          "hash": "PQZnReB6ImZC8T5O73naMlAmlqWtPSbRdTM6+G2zK6g="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "Toc",
-      "source_relative_path": "toc.yml",
-      "output": {
-        ".html": {
-          "relative_path": "toc.html",
-          "hash": "o5Eeb0KP049jWQKVZTKjbKbghO3XtWHSTKrFDyJAJhk="
+          "hash": "hSXIfr+YQHlS9BZz2WqRfR/C6MVezTsCg/NCKobDRgM="
         }
       },
       "is_incremental": false,
@@ -123,7 +87,7 @@
         "ConceptualDocumentProcessor": {
           "can_incremental": false,
           "incrementalPhase": "build",
-          "total_file_count": 5,
+          "total_file_count": 4,
           "skipped_file_count": 0
         },
         "TocDocumentProcessor": {
