@@ -5,9 +5,9 @@
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-    <title>Tridion Sites 9.6 API Documentation </title>
+    <title>Tridion Sites 10 API Documentation </title>
     <meta name="viewport" content="width=device-width">
-    <meta name="title" content="Tridion Sites 9.6 API Documentation ">
+    <meta name="title" content="Tridion Sites 10 API Documentation ">
     <meta name="generator" content="docfx 2.59.3.0">
     
     <link rel="shortcut icon" href="../../favicon.ico">
@@ -81,30 +81,30 @@
         <div class="article row grid-right">
           <div class="col-md-10">
             <article class="content wrap" id="_content" data-uid="">
-<h1 id="tridion-sites-96-api-documentation">Tridion Sites 9.6 API Documentation</h1>
+<h1 id="tridion-sites-10-api-documentation">Tridion Sites 10 API Documentation</h1>
 
 <p>Tridion Sites is an enterprise-class web content management system that lets you manage complex global web, mobile and other digital touchpoints. Together with Tridion Docs, it forms the Tridion suite of products.</p>
-<h2 id="content-delivery-public-content-apihttpsdocsrwscom956379888888"><a href="https://docs.rws.com/956379/888888/">Content Delivery Public Content API</a></h2>
+<h2 id="content-delivery-public-content-apihttpsdocsrwscom1099765571991"><a href="https://docs.rws.com/1099765/571991/">Content Delivery Public Content API</a></h2>
 <p>Content Delivery exposes its content through the Public Content API, in the GraphQL query language. To interact with the API and the published content, use an in-browser GraphQL IDE such as GraphiQL.</p>
-<p>Select <a href="https://docs.rws.com/binary/956379/955694/">this link</a> to download the Public Content API reference documentation.</p>
-<h2 id="extension-points-in-the-net-content-interaction-librarieshttpsdocsrwscom956379631159"><a href="https://docs.rws.com/956379/631159/">Extension points in the .NET Content Interaction Libraries</a></h2>
+<p>Select <a href="https://docs.rws.com/binary/1099765/745653/">this link</a> to download the Public Content API reference documentation.</p>
+<h2 id="extension-points-in-the-net-content-interaction-librarieshttpsdocsrwscom1099765631157"><a href="https://docs.rws.com/1099765/631157/">Extension points in the .NET Content Interaction Libraries</a></h2>
 <p>Various interfaces in the .NET CIL enable you to override various default implementations. You can use Microsoft Unity to inject any new dependencies you create.</p>
-<h2 id="content-deployer-extensionshttpsdocsrwscom956379695273"><a href="https://docs.rws.com/956379/695273/">Content Deployer extensions</a></h2>
+<h2 id="content-deployer-extensionshttpsdocsrwscom1099765471886"><a href="https://docs.rws.com/1099765/471886/">Content Deployer extensions</a></h2>
 <p>When a user publishes content, the Content Deployer unpacks the incoming Transport Package and processes its transport instructions. You can extend the default behavior of the Content Deployer by creating a custom Module and adding it to a Step, or by extending an existing Module.</p>
 <p>By default, the Content Deployer runs through a list of item types (Pages, Components and so on) in the package. For each type, it then deploys all the items in the package (that is, it sends the items to the Storage Layer). The deployment process as a whole is called a Pipeline, and each step of the deployment process is called a Step. If a Step performs a deployment or undeployment, it can contain a Module. You can extend existing Modules, or build a new one and add it to a Step.</p>
 <p>To add your extension to Content Deployer, run the microservice startup or installation script with the extensions switch pointing to your extension.</p>
-<h2 id="implementing-add-onshttpsdocsrwscom956379771360"><a href="https://docs.rws.com/956379/771360/">Implementing Add-ons</a></h2>
+<h2 id="implementing-add-onshttpsdocsrwscom1099765545182"><a href="https://docs.rws.com/1099765/545182/">Implementing Add-ons</a></h2>
 <p>To extend the functionality of Tridion Sites with custom functionality, create or obtain one or more Add-ons.</p>
 <p>An Add-on takes the form of a ZIP file. The ZIP file must contain one or more Extensions, which together represent your custom feature. If you want, you can combine multiple custom features in a single package as well.</p>
 <p>The package must also contain a manifest file, which explains where each Extension is located, and may include custom configuration for each Extension.</p>
-<h2 id="implementing-connectorshttpsdocsrwscomtridionsites96connectors"><a href="https://docs.rws.com/TridionSites/9.6/Connectors">Implementing Connectors</a></h2>
+<h2 id="implementing-connectorshttpsdocsrwscomtridionsites100connectors"><a href="https://docs.rws.com/TridionSites/10.0/Connectors">Implementing Connectors</a></h2>
 <p>A Connector is a specific type of Add-on that is specifically used to integrate Tridion Sites with other systems, either other RWS products or third-party systems. RWS provides a number of Connectors built on Tridion Integration Framework, which you can optionally purchase and implement, plus you can use the framework and SDK to build additional, custom Connectors. The SDK is available for .NET Core and Java.</p>
-<h2 id="content-manager-extension-pointshttpsdocsrwscom956379480866"><a href="https://docs.rws.com/956379/480866/">Content Manager extension points</a></h2>
+<h2 id="content-manager-extension-pointshttpsdocsrwscom1099765101206"><a href="https://docs.rws.com/1099765/101206/">Content Manager extension points</a></h2>
 <p>Content Manager extension points are the APIs you can use to implement Content Manager functionality: you can use the TOM.NET API for developing templating and Event Handler and Workflow, the Content Manager Explorer extension API to add custom controls and behavior to the GUI, and the Core Service API to interact with the Content Manager from a third-party application or third-party GUI.</p>
 <p>If you use 32-bit COM components inside your .NET extensions (e.g. .NET event handlers), your code will fail on a 64-bit operating system. To prevent this, put your COM component in a COM+ app.</p>
-<h2 id="translation-manager-api-and-plugin-systemhttpsdocsrwscom956379690092"><a href="https://docs.rws.com/956379/690092/">Translation Manager API and Plugin System</a></h2>
+<h2 id="customizing-translation-manager-with-the-translation-manager-apihttpsdocsrwscom1099765106269"><a href="https://docs.rws.com/1099765/106269/">Customizing Translation Manager with the Translation Manager API</a></h2>
 <p>You can customize the functionality provided by the Translation Manager using the Translation Manager API. The API provides classes that you can use to access and extend the Translation Manager. For example the Plugin System allows you to load custom DLLs created using this API into the Translation Manager and you can trigger translations from the Event System and Workflow.</p>
-<h2 id="api-reference-documentation-downloadshttpsdocsrwscom956379884682"><a href="https://docs.rws.com/956379/884682/">API reference documentation downloads</a></h2>
+<h2 id="api-reference-documentation-downloadshttpsdocsrwscom1099765109635"><a href="https://docs.rws.com/1099765/109635/">API reference documentation downloads</a></h2>
 <p>Links to download the API reference documentation for Tridion Sites. The ASP.NET APIs are available as .chm files and the Java APIs as Javadoc.</p>
 <p>The following documentation is available:</p>
 <h3 id="content-manager-rest-api">Content Manager REST API</h3>
@@ -114,31 +114,32 @@
 </ul>
 <h3 id="content-manager-apis-chm-files">Content Manager APIs (.chm files)</h3>
 <ul>
-<li><a href="https://docs.rws.com/binary/956379/952141/">TOM.NET API reference</a></li>
-<li><a href="https://docs.rws.com/binary/956379/955707/">GUI API reference</a></li>
-<li><a href="https://docs.rws.com/binary/956379/952144/">Core Service API reference</a></li>
-<li><a href="https://docs.rws.com/binary/956379/955810/">ECL API reference</a></li>
-<li><a href="https://docs.rws.com/binary/956379/955807/">Translation Manager API reference</a></li>
+<li><a href="https://docs.rws.com/binary/1099765/745689/">TOM.NET API reference</a></li>
+<li><a href="https://docs.rws.com/binary/1099765/745685/">GUI API reference</a></li>
+<li><a href="https://docs.rws.com/binary/1099765/745669/">WCF Core Service API reference</a></li>
+<li><a href="https://docs.rws.com/binary/1099765/745681/">ECL API reference</a></li>
+<li><a href="https://docs.rws.com/binary/1099765/745697/">Translation Manager API reference</a></li>
+<li><a href="https://docs.rws.com/binary/1099765/956668/">Core Service.REST API reference</a></li>
 </ul>
 <h3 id="content-delivery-content-api-graphql-schema">Content Delivery Content API (GraphQL Schema)</h3>
 <ul>
-<li><a href="https://developers.rws.com/tridion-dxd-api-docs/content-api-graphql/">Content Delivery Public Content API (GraphQL Schema)</a></li>
+<li><a href="https://docs.rws.com/binary/1099765/745653/">Content Delivery Public Content API (GraphQL Schema)</a></li>
 </ul>
 <h3 id="content-delivery-net-apis-chm-files">Content Delivery .NET APIs (.chm files)</h3>
 <ul>
-<li><a href="https://docs.rws.com/binary/956407/955697/">Content Delivery RESTful API (.NET)</a></li>
-<li><a href="https://docs.rws.com/binary/956379/955964/">Experience Optimization Content Delivery (ASP.NET)</a></li>
+<li><a href="https://docs.rws.com/binary/986879/745657/">Content Delivery RESTful API (.NET)</a> (deprecated)</li>
+<li><a href="https://docs.rws.com/binary/1099765/745673/">Experience Optimization Content Delivery (ASP.NET)</a></li>
 </ul>
 <h3 id="content-delivery-java-apis-javadoc">Content Delivery Java APIs (Javadoc)</h3>
 <ul>
-<li><a href="https://developers.rws.com/tridion-dxd-api-docs/cil-api-java/">Content Delivery RESTful API (Java)</a></li>
-<li><a href="https://developers.rws.com/tridion-dxd-api-docs/xo-api-java/">Experience Optimization Content Delivery (JSP)</a></li>
+<li><a href="https://docs.rws.com/binary/986879/745661/">Content Delivery RESTful API (Java)</a> (deprecated)</li>
+<li><a href="https://docs.rws.com/binary/1099765/745677/">Experience Optimization Content Delivery (JSP)</a></li>
 </ul>
 <h3 id="tridion-integration-framework-apis">Tridion Integration Framework APIs</h3>
 <ul>
-<li><a href="https://docs.rws.com/binary/956379/955804/">Tridion Integration Framework API (.NET)</a></li>
-<li><a href="https://docs.rws.com/binary/956379/955798/">Tridion Integration Framework API (Java)</a></li>
-<li><a href="https://docs.rws.com/binary/956379/955801/">Tridion Integration Framework SDK (Java)</a></li>
+<li><a href="https://docs.rws.com/binary/1099765/745693/">Tridion Integration Framework API (.NET)</a></li>
+<li><a href="https://docs.rws.com/binary/1099765/745629/">Tridion Integration Framework API (Java)</a></li>
+<li><a href="https://docs.rws.com/binary/1099765/745633/">Tridion Integration Framework SDK (Java)</a></li>
 </ul>
 <h2 id="tridion-dxa">Tridion DXA</h2>
 <p>This section is intended for developers wanting to extend DXA functionality using its open-source .NET and Java APIs.</p>
@@ -160,7 +161,7 @@ Domain (Content Manager) Models are mapped to the Presentation (View) Models usi
 <ul>
 <li><a href="https://docs.rws.com/DXA/DotNET/2.2/APIDOC/">DXA API for .NET</a></li>
 <li><a href="https://docs.rws.com/DXA/Java/2.2/APIDOC/">DXA API for Java</a></li>
-<li><a href="https://docs.rws.com/binary/956379/955694/">Content Delivery&#39;s Public Content API</a></li>
+<li><a href="https://docs.rws.com/binary/1099765/745653/">Content Delivery&#39;s Public Content API</a></li>
 </ul>
 </article>
           </div>
@@ -170,7 +171,7 @@ Domain (Content Manager) Models are mapped to the Presentation (View) Models usi
               <div class="contribution">
                 <ul class="nav">
                   <li>
-                    <a href="https://github.com/RWS/tridion-sites-api-docs/blob/main/apiconcepts/Tridion_Sites_9.6/overview.md/#L1" class="contribution-link">Improve this Doc</a>
+                    <a href="https://github.com/RWS/tridion-sites-api-docs/blob/main/apiconcepts/Tridion_Sites_10/overview.md/#L1" class="contribution-link">Improve this Doc</a>
                   </li>
                 </ul>
               </div>
