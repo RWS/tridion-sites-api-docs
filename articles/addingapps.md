@@ -8,6 +8,7 @@ Submitting your app makes it subject to our security and functional review proce
 To be able to submit an app, you must be signed up as an RWS Developer. 
 
 ### To sign up as an RWS Developer:
+
 1. Sign in to your RWS Account on the [RWS AppStore](https://appstore.sdl.com/).
 2. Go to your account settings by selecting your username and selecting **SDL Account** from the dropdown. A new browser tab opens, showing your account settings.
 3. From the top menu, select the **Apps & Developers** tab.
@@ -17,6 +18,7 @@ To be able to submit an app, you must be signed up as an RWS Developer.
 Approved RWS Developers can submit their app.
 
 ### To submit your app:
+
 1. Sign in to your RWS Account on the [RWS AppStore](https://appstore.sdl.com/).
 2. Go to your account settings by selecting your username and selecting **SDL Account** from the dropdown. A new browser tab opens, showing your account settings.
 3. From the top menu, select the **Apps & Developers** tab.
