@@ -1,5 +1,4 @@
 {
-  "homepages": [],
   "source_base_path": "D:/a/tridion-sites-api-docs/tridion-sites-api-docs",
   "xrefmap": "xrefmap.yml",
   "files": [
@@ -9,19 +8,26 @@
         "resource": {
           "relative_path": "index.json"
         }
+      }
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "Plugins/TradosStudioDocsPlugin.deps.json",
+      "output": {
+        "resource": {
+          "relative_path": "Plugins/TradosStudioDocsPlugin.deps.json"
+        }
       },
-      "is_incremental": false
+      "version": ""
     },
     {
       "type": "Conceptual",
       "source_relative_path": "README.md",
       "output": {
         ".html": {
-          "relative_path": "README.html",
-          "hash": "LSq9bHgfGCZ+O0bh1i7Le4KoDzhaxDkG3ur9ryJ5jCg="
+          "relative_path": "README.html"
         }
       },
-      "is_incremental": false,
       "version": ""
     },
     {
@@ -32,7 +38,6 @@
           "relative_path": "RWSTemplate/search-stopwords.json"
         }
       },
-      "is_incremental": false,
       "version": ""
     },
     {
@@ -43,7 +48,6 @@
           "relative_path": "RWSTemplate/token.json"
         }
       },
-      "is_incremental": false,
       "version": ""
     },
     {
@@ -51,11 +55,9 @@
       "source_relative_path": "apiconcepts/Tridion_Sites_10.1/overview.md",
       "output": {
         ".html": {
-          "relative_path": "apiconcepts/Tridion_Sites_10.1/overview.html",
-          "hash": "bH8vo5/ca5LFT00f86b1P08q62p4dSRW+vFd0sfLPXE="
+          "relative_path": "apiconcepts/Tridion_Sites_10.1/overview.html"
         }
       },
-      "is_incremental": false,
       "version": ""
     },
     {
@@ -63,11 +65,9 @@
       "source_relative_path": "apiconcepts/Tridion_Sites_10/overview.md",
       "output": {
         ".html": {
-          "relative_path": "apiconcepts/Tridion_Sites_10/overview.html",
-          "hash": "b5fCKVZBRUX47GdPnSM8vW+HgdiQo9/hFQxISXfx4KU="
+          "relative_path": "apiconcepts/Tridion_Sites_10/overview.html"
         }
       },
-      "is_incremental": false,
       "version": ""
     },
     {
@@ -75,11 +75,9 @@
       "source_relative_path": "apiconcepts/Tridion_Sites_9.6/overview.md",
       "output": {
         ".html": {
-          "relative_path": "apiconcepts/Tridion_Sites_9.6/overview.html",
-          "hash": "RNNsrh3zNgsUHxMEKyEXlTsoj53wj8l4/wlUUdGOnaY="
+          "relative_path": "apiconcepts/Tridion_Sites_9.6/overview.html"
         }
       },
-      "is_incremental": false,
       "version": ""
     },
     {
@@ -87,11 +85,9 @@
       "source_relative_path": "apiconcepts/overview.md",
       "output": {
         ".html": {
-          "relative_path": "apiconcepts/overview.html",
-          "hash": "eSS5S0qxeGTwD3CMME7HqKRhSr+AZ4bN5CCLx4xZlTo="
+          "relative_path": "apiconcepts/overview.html"
         }
       },
-      "is_incremental": false,
       "version": ""
     },
     {
@@ -99,15 +95,12 @@
       "source_relative_path": "apiconcepts/toc.yml",
       "output": {
         ".html": {
-          "relative_path": "apiconcepts/toc.html",
-          "hash": "u5k4CtswerIZME9xGS8pr5w3dhwHzOKtqNoTjYrWXVI="
+          "relative_path": "apiconcepts/toc.html"
         },
         ".json": {
-          "relative_path": "apiconcepts/toc.json",
-          "hash": "MTa+j+XTs8QmEXR73sBQwMyDae9fr5vmWu1y9yXSTrA="
+          "relative_path": "apiconcepts/toc.json"
         }
       },
-      "is_incremental": false,
       "version": ""
     },
     {
@@ -118,18 +111,6 @@
           "relative_path": "docfx.json"
         }
       },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "Resource",
-      "source_relative_path": "docfx_project/docfx.json",
-      "output": {
-        "resource": {
-          "relative_path": "docfx_project/docfx.json"
-        }
-      },
-      "is_incremental": false,
       "version": ""
     },
     {
@@ -137,11 +118,9 @@
       "source_relative_path": "index.md",
       "output": {
         ".html": {
-          "relative_path": "index.html",
-          "hash": "kVyusUg2hNgVhJz+/UGJIYKhQgILhZNKBxx2Z4+4WMU="
+          "relative_path": "index.html"
         }
       },
-      "is_incremental": false,
       "version": ""
     },
     {
@@ -149,63 +128,15 @@
       "source_relative_path": "toc.yml",
       "output": {
         ".html": {
-          "relative_path": "toc.html",
-          "hash": "2lW3GksPlYJwUX8vNdZLHonSxhzdCKA3EG+ojra8Q8s="
+          "relative_path": "toc.html"
         },
         ".json": {
-          "relative_path": "toc.json",
-          "hash": "x7Fbcp1IfhKZOBwRXreouwwXxhgTFn8KpEVOWuMfjGs="
+          "relative_path": "toc.json"
         }
       },
-      "is_incremental": false,
       "version": ""
     }
   ],
-  "incremental_info": [
-    {
-      "status": {
-        "can_incremental": false,
-        "details": "Cannot build incrementally because last build info is missing.",
-        "incrementalPhase": "build",
-        "total_file_count": 0,
-        "skipped_file_count": 0,
-        "full_build_reason_code": "NoAvailableBuildCache"
-      },
-      "processors": {
-        "ConceptualDocumentProcessor": {
-          "can_incremental": false,
-          "incrementalPhase": "build",
-          "total_file_count": 6,
-          "skipped_file_count": 0
-        },
-        "ResourceDocumentProcessor": {
-          "can_incremental": false,
-          "details": "Processor ResourceDocumentProcessor cannot support incremental build because the processor doesn't implement ISupportIncrementalDocumentProcessor interface.",
-          "incrementalPhase": "build",
-          "total_file_count": 0,
-          "skipped_file_count": 0
-        },
-        "TocDocumentProcessor": {
-          "can_incremental": false,
-          "details": "Processor TocDocumentProcessor cannot support incremental build because the processor doesn't implement ISupportIncrementalDocumentProcessor interface.",
-          "incrementalPhase": "build",
-          "total_file_count": 0,
-          "skipped_file_count": 0
-        }
-      }
-    },
-    {
-      "status": {
-        "can_incremental": false,
-        "details": "Cannot support incremental post processing, the reason is: should not trace intermediate info.",
-        "incrementalPhase": "postProcessing",
-        "total_file_count": 0,
-        "skipped_file_count": 0
-      },
-      "processors": {}
-    }
-  ],
-  "version_info": {},
   "groups": [
     {
       "xrefmap": "xrefmap.yml"
