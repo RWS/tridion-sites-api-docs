@@ -32,6 +32,16 @@
     },
     {
       "type": "Resource",
+      "source_relative_path": "RWSTemplate/Plugins/TradosStudioDocsPlugin.deps.json",
+      "output": {
+        "resource": {
+          "relative_path": "RWSTemplate/Plugins/TradosStudioDocsPlugin.deps.json"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
       "source_relative_path": "RWSTemplate/search-stopwords.json",
       "output": {
         "resource": {
